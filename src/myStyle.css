@@ -1,0 +1,75 @@
+@font-face {
+    font-family: myByekan;
+    src: url(../public/fonts/B\ Yekan_YasDL.com.ttf);
+}
+a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
+
+
+*{
+    direction: rtl;
+    font-family: myByekan;
+}
+body{
+    background-color:#FFC107 ;
+}
+
+.main-container{
+    width: 75%;
+    margin-right: 15%;
+    background-color: #03A9F4;
+
+}
+
+.top-down-nav{
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    height: 60%;
+    width: 10%;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:#009688 ;
+    transition: all ease 1s;
+    
+
+
+
+}
+.user_dialog_portal_container{
+    width: 100%;
+    height: 100%;
+    background-color: #01010185;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+.user_dialog_portal_child {
+    width: 50%;
+    height: 50%;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #f7f7f7;
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+ .top-down-nav {
+    top:-480px ;
+ }    
+}
+
+
